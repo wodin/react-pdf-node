@@ -1,0 +1,21 @@
+{
+  "name": "react-pdf-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michael Wood <esiotrot@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "babel index.js --out-dir dist"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^2.0.14",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13"
+  }
+}
